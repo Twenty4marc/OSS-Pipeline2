@@ -126,7 +126,7 @@ inputs:
       List of arguments to pass to ORT Analyzer CLI.
     required: false
   ort-cli-scan-args:
-    default: ''
+    default: '--package-types=PACKAGE'
     description: |
       List of arguments to pass to ORT Scanner CLI.
     required: false
