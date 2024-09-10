@@ -136,7 +136,7 @@ inputs:
       List of arguments to pass to ORT Evaluator CLI.
     required: false
   ort-cli-advise-args:
-    default: ''
+    default: '-a OSV'
     description: |
       List of arguments to pass to ORT Advisor CLI.
     required: false
@@ -146,17 +146,17 @@ inputs:
       List of arguments to pass to ORT Reporter CLI.
     required: false
   ort-config-path:
-    default: ''
+    default: '/Config/'
     description: |
       Path to ORT configuration directory within the user home directory.
     required: false
   ort-home-path:
-    default: '.ort'
+    default: '/'
     description: |
       Path to ORT 'home' or 'data' directory within the user home directory.
     required: false
   ort-config-repository:
-    default: 'https://github.com/oss-review-toolkit/ort-config.git'
+    default: 'https://github.com/snxox/OSS-Pipeline2.git'
     description: |
       URL to ORT configuration repository to use.
     required: false
@@ -178,7 +178,7 @@ inputs:
       If empty, $GITHUB_WORKSPACE directory is scanned.
     required: false
   report-formats:
-    default: 'CycloneDx,SpdxDocument,WebApp'
+    default: 'CycloneDX,PdfTemplate,SpdxDocument,WebApp'
     description: |
       Comma-separated list of ORT reporters to run.
     required: false
