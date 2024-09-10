@@ -146,17 +146,17 @@ inputs:
       List of arguments to pass to ORT Reporter CLI.
     required: false
   ort-config-path:
-    default: '/Config/'
+    default: ''
     description: |
       Path to ORT configuration directory within the user home directory.
     required: false
   ort-home-path:
-    default: '/'
+    default: '.ort'
     description: |
       Path to ORT 'home' or 'data' directory within the user home directory.
     required: false
   ort-config-repository:
-    default: 'https://github.com/snxox/OSS-Pipeline2.git'
+    default: 'https://github.com/snxox/OSS-Config.git'
     description: |
       URL to ORT configuration repository to use.
     required: false
